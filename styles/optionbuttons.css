@@ -1,0 +1,41 @@
+.option-bar{
+    display: flex;
+    background-color: white;
+    height: 60px;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 56px;
+    left: 72px;
+    right: 0;
+    z-index: 100;
+    margin: 0 23px;
+}
+.buttons{
+    margin-right: 10px;
+}
+.buttons .all{
+    height: 32px;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.buttons .other{
+    height: 32px;
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.06);
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
